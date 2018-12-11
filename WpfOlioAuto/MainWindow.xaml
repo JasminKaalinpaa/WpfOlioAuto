@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfOlioAuto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfOlioAuto"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnKaynnista" Content="Käynnistä" HorizontalAlignment="Left" Height="79" Margin="329,69,0,0" VerticalAlignment="Top" Width="190" Click="BtnKaynnista_Click"/>
+        <TextBox x:Name="txtHuippuNopeus" HorizontalAlignment="Left" Height="79" Margin="329,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="txtVari" HorizontalAlignment="Left" Height="79" Margin="329,269,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="lblHuippuNopeus" Content="Huippunopeus" HorizontalAlignment="Left" Height="27" Margin="214,191,0,0" VerticalAlignment="Top" Width="96" FontWeight="Bold"/>
+        <Label x:Name="lblVari" Content="Väri" HorizontalAlignment="Left" Height="30" Margin="254,300,0,0" VerticalAlignment="Top" Width="44" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
